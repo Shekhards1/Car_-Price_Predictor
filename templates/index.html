@@ -1,0 +1,98 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Car price Predictor</title>
+</head>
+<body>
+    <div class="predictor">
+        <h1>
+ Car Price Predictor System</h1>
+<br><br><h1>{{ prediction_text }}<h1>
+</div>
+<div class="main">
+    
+        <form method="POST" , action="{{ url_for('predict') }}">
+
+            <div id="name">
+                <h2 class="name">
+No. of Kilometers driven </h2>
+<input class="kilometer" type="number" name="Kilometers_" required="required" min="0"  max="5000000"><br>
+               
+               
+            </div>
+<h2 class="name" required ="required">
+No. of years driven </h2>
+<input class="years" type="number" name="years_" min="0" max="30" required>
+            <h2 class="name">
+No of previous owners</h2>
+<select class="owners"  name="owners_" required="required">
+    <option selected="selected" value="">--No of previous owners--</option>
+    <option value="test_drive_car">Test drive car</option>
+    <option value="first_owner">First owner</option>
+    <option value="second_owner">Second owner </option>
+    <option value="third_owner">Third owner</option>
+    <option value="Fourth_and_above">Four and above owner</option>
+    
+</select>    
+            <h2 class="name" required="required">
+Fuel type</h2>
+<select class="option" name="option_"  required="required">
+                <option selected="selected" value="">--Choose fuel type--</option>
+                <option value="fuel_Petrol">Petrol</option>
+                <option value="fuel_Diesel">Diesel</option>
+                <option value="fuel_LPG">LPG</option>
+                <option value="fuel_CNG">CNG</option>
+                <option value="fuel_Electric">Electric</option>
+
+            </select>
+    
+            <h2 id="transmission" required="required">
+Transmission Type</h2>
+<label class="radio1">
+                <input class="radio-one" type="radio" checked="checked" name="rdiobtn1" value="transmission_Manual">
+                <span class="checkmark"></span>
+                Manual 
+            </label>
+    
+            <label class="radio1">
+                <input class="radio-two" type="radio" name="rdiobtn1" value="transmission_Automatic">
+                <span class="checkmark"></span>
+                Automatic
+            </label>
+    
+            
+<h2 id="seller">
+Seller type</h2>
+<label class="radio2">
+                <input class="radio-three" type="radio" checked="checked" name="rdiobtn2" value="seller_type_Individual">
+                <span class="checkmark"></span>
+                Individual
+            </label>
+    
+            <label class="radio2">
+                <input class="radio-four" type="radio" name="rdiobtn2" value="seller_Trustmark_dealer">
+                <span class="checkmark"></span>
+                Trustmark dealer
+            </label>
+
+             <label class="radio2">
+                <input class="radio-four" type="radio" name="rdiobtn2" value="seller_type_Dealer">
+                <span class="checkmark"></span>
+                 Dealer
+            </label>
+    
+            <button type="submit">Predict</button>
+            
+            
+    
+    
+    
+    
+        </form>
+         <br><br>
+</div>
+</body>
+</html>
