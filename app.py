@@ -1,10 +1,9 @@
-import numpy as np
 from flask import Flask, request, render_template
 import pickle
 from sklearn.preprocessing import StandardScaler
 
 app=Flask(__name__)
-model=pickle.load(open('random_forest_regression_model_original4.pkl','rb'))
+model=pickle.load(open('random_forest_regression_model_original7.pkl','rb'))
 
 @app.route('/',methods=['GET'])
 def home():
