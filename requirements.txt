@@ -58,7 +58,7 @@ Pillow==7.2.0
 prometheus-client==0.8.0
 prompt-toolkit==3.0.7
 psycopg2-binary==2.8.6
-PyAudio @ file:///C:/Users/shekh/Downloads/PyAudio-0.2.11-cp38-cp38-win32.whl
+
 pycparser==2.20
 Pygments==2.6.1
 pyparsing==2.4.7
