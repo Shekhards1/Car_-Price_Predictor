@@ -14,3 +14,6 @@ The application is developed using Python's Flask framework.
 
 # Screenshots
 ![screenshot-127 0 0 1_5000-2021 03 16-14_14_53](https://user-images.githubusercontent.com/71866560/111283856-8ec49980-8665-11eb-9761-25121e0450ba.png)
+
+![second](https://user-images.githubusercontent.com/71866560/111284056-c4698280-8665-11eb-9776-b67f0e12b1e1.png)
+
