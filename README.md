@@ -1,4 +1,4 @@
-# Car price predictor
+# Car Price Predictor
 It is a machine learning based project which helps to predict the price of the car on the basis of input features given by the user.
 The algorithm used to predict the price is Random Forest algorithm.
 The dataset has been taken from Kaggle website.
