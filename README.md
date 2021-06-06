@@ -14,7 +14,7 @@ The application is developed using Python's Flask framework.
 
 # Project Structure
 - car prediction notebook.ipynb -> This file contains the code for machine learning model written in Python.
-- datasets_33080 -> It is Car dataset upon which model has been made.a
+- datasets_33080 -> It is Car dataset upon which model has been made.
 - app.py -> This file contains the backend code for the website using Flask framework.
 - random_forest_regression_model_original4.pkl -> This file contains the pickle file generated after saving the model.
 - templates -> This folder contains the html file that is the front end code of the website.
