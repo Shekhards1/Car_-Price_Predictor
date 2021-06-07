@@ -19,7 +19,7 @@ The application is developed using Python's Flask framework.
 - random_forest_regression_model_original4.pkl -> This file contains the pickle file generated after saving the model.
 - templates -> This folder contains the html file that is the front end code of the website.
 - static -> This folder contains the static files like Css files and images.
-- requirements.txt -> This folder contains all the packages and dependies which is needed to be installed before running the project on Heroku. 
+- requirements.txt -> This folder contains all the packages and dependencies which is needed to be installed before running the project on Heroku. 
 # Screenshots
 ![screenshot-127 0 0 1_5000-2021 03 16-14_14_53](https://user-images.githubusercontent.com/71866560/111283856-8ec49980-8665-11eb-9761-25121e0450ba.png)
 
