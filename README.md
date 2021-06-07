@@ -10,7 +10,7 @@ The features used to predict the price of the car are-
 - Transmission Type
 - Seller type
 
-The application is developed using Python's Flask framework.
+The web application is developed using Python's Flask framework.
 
 # Project Structure
 - car prediction notebook.ipynb -> This file contains the code for machine learning model written in Python.
